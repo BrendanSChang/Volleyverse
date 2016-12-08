@@ -2,6 +2,12 @@
 
 This is an Android application for the Volleyverse website.
 
+## How to Run
+
+Development and testing has taken place in Android Studio. The application can be easily deployed on an
+emulator or a physical device through Android Studio. Thus far, the application has only been tested on
+an Android emulator (AVD) running API 23.
+
 ## Current State
 
 The application is currently able to load and refresh posts.
