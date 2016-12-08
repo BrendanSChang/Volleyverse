@@ -21,5 +21,5 @@ The application is currently able to load and refresh posts.
 - Implement offline loading using WebView caching mechanisms
 - Add push functionality and a settings activity to allow the user to control push subscriptions
 - Tweak color schemes/look and feel
-- Try using fragments
+- Try using Fragments
 - Test on different platforms/versions
