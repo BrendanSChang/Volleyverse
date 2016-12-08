@@ -1,15 +1,10 @@
 package com.volleyverse.volleyverse;
 
-import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import com.android.volley.toolbox.NetworkImageView;
-
-import static android.R.attr.start;
 
 class PostListItemViewHolder
     extends RecyclerView.ViewHolder implements View.OnClickListener {
