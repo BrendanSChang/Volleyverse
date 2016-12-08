@@ -1,0 +1,605 @@
+<resources>
+    <string name="app_name">Volleyverse</string>
+    <string name="volleyverse_host">volleyverse.com</string>
+    <string name="rest_url">https://volleyverse.com/wp-json/wp/v2/posts/?_embed</string>
+    <string name="about_us_url">https://volleyverse.com/about-us/</string>
+    <string name="partnerships_url">https://volleyverse.com/partnerships/</string>
+    <string name="jobs_url">https://volleyverse.com/jobs/</string>
+    <string name="privacy_and_cookie_policy_url">https://volleyverse.com/privacy-cookie-policy/</string>
+    <string name="terms_of_use_url">https://volleyverse.com/terms-of-use/</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_feedback">Feedback</string>
+
+    <string name="about_us_body">
+        The seed for Volleyverse was planted as a result of a chance happening with an
+        international women’s volleyball tournament in Basel, Switzerland back in the mid 1990’s,
+        which captured our attention for 3 days straight. Little did we know that over 15 years
+        later and following 10 years experience in the sports industry this would lead to setting
+        up a volleyball destination.
+
+        \n\nFor several years now we have been convinced that the sport of volleyball has been
+        under-served by the mainstream media market and that whilst the current industry
+        publications offer some great coverage of the sport there exists an opportunity to deliver
+        fans the best quality content from around the world.
+
+        \n\nOur team is made of sports industry professionals that have years of experience of working
+        with and managing many of the world’s leading sports destinations including nba.com,
+        premierleague.com, goal.com, sportal.com.au, foxsoccer.com, beinsports.com and
+        footballaustralia.com.
+
+        \n\nWe can’t claim that we’ll deliver everything that we want to from day 1 but we are
+        committed to growing Volleyverse into a valued destination and resource for all volleyball
+        fans globally. We need your input in order to achieve this so please don’t hesitate to get
+        in touch via our Feedback page or our social media profiles. We can’t guarantee an
+        immediate response but will always try to respond back to you wherever possible.
+    </string>
+
+    <string name="partnerships_body">
+        Volleyverse’s objective is to deliver the best content to volleyball fans and provide a
+        platform for our partners to engage with these users. We believe that we can deliver
+        compelling, opinionated content delivered with integrity and maintain a professional
+        product that our partners are proud to be associated with.
+
+        \n\nWe don’t have any predefined ideas as to how we could work with partners, instead
+        preferring to understand your objectives and work with premium brands to deliver value to
+        all parties. We do prefer to work with partners to create engaging functionality or content
+        over a period time as opposed to short term media deals.
+
+        \n\nYou can download more information about Volleyverse below and welcome any genuine
+        enquiries to dan.grey@volleyverse.com.
+    </string>
+
+    <string name="privacy_and_cookie_policy_body">
+        Five Rings Media Ltd
+
+        \n\nLast updated: OCTOBER 3RD, 2015
+
+        \n\nThis privacy policy (“Policy”) describes how Five Rings Media Ltd and its related
+        companies collect, use and share personal data of users of this website,
+        volleyverse.com.
+
+        \n\nPlease take a moment to read this Policy which explains how we collect, use, disclose
+        and transfer the personal information that you provide to us on our websites or mobile
+        applications, when you visit our site.
+
+        \n\nBy visiting our site and providing us with your personal data, you acknowledge and
+        agree that your personal data may be processed for the purposes identified in this Policy.
+
+        \n\nYou can find out more about Five Rings Media Ltd and the Terms of Use for using our
+        site at Terms of Use.
+
+        \n\nWHO WE ARE &amp; CONTACT INFORMATION
+
+        \n\nFive Rings Media Ltd is a company with registered offices at 15 Balham New Road,
+        London, SW12 9PH.
+
+        \n\nWe welcome your comments about this Policy. If you have any questions about how we use
+        your personal data, please do not hesitate to contact us at:
+        \n15 Balham New Road
+        \nLondon
+        \nSW12 9PH
+        \nE-mail: dan.grey@volleyverse.com
+        \nPhone: +44 (749) 439-0882
+
+        \n\nWHAT WE COLLECT
+
+        \n\nWe obtain information about you in a range of ways:
+
+        \n\nInformation You Give Us.
+
+        \n\nWe collect your name, email address, username, password and demographic information
+        (such as your gender and occupation) as well as other information you directly give us on
+        our site. In addition, we may also collect personal information from you when you
+        correspond with use (for example, when you send us e-mail communications or letters, or by
+        telephone).
+
+        \n\nInformation We Get From Others.
+
+        \n\nWe may get information about you from other sources. We may add this to information we
+        get from this site.
+
+        \n\nInformation Automatically Collected.
+
+        \n\nWe automatically log information about you and your computer. For example, when
+        visiting our site, we log your computer operating system type, browser type, browser
+        language, the website you visited before browsing to our site, pages you viewed, how long
+        you spent on a page, access times and information about your use of and actions on our
+        site.
+
+        \n\nCOOKIES
+
+        \n\nOur site (like most platforms) uses cookies and other similar technology such as ‘web
+        beacons’.
+
+        \n\nWhat is a Cookie?
+
+        \n\nCookies are text files containing small amounts of information which are downloaded to
+        your computer or mobile device when you visit a website or mobile application. Cookies are
+        then sent back to the originating site on each subsequent visit, or to another site that
+        recognises that cookies. You can find out more information about cookies at
+        www.allaboutcookies.org
+
+        \n\nCookies are widely used in order to make sites work, or to work more efficiently, as
+        well as to provide information to the owners of the platform.
+
+        \n\nWe use cookies to enhance the online experience of our visitors (for example, by
+        remembering your language and/or product preferences) and to better understand how our site
+        is used. Cookies may tell us, for example, whether you have visited our site before or
+        whether you are a new visitor. They can also help to ensure that adverts you see online are
+        more relevant to you and your interests.
+
+        \n\nTypes of Cookies
+
+        \n\nThere are two broad categories of cookies:
+
+        \n\nFirst Party Cookies, served directly by [name of business] to your computer or mobile
+        device. They are used only by [name of business] to recognise your computer or mobile
+        device when it revisits our site.
+
+        \n\nThird party cookies, which are served by a service provider on our site, and can be used
+        by the service provider to recognise your computer or mobile device when it visits other
+        sites. Third party cookies are most commonly used for platform analytics or advertising
+        purposes.
+
+        \n\nCookies can remain on your computer or mobile device for different periods of time. Some
+        cookies are ‘session cookies’, meaning that they exist only while your browser is open.
+        These are deleted automatically once you close your browser. Other cookies are ‘permanent
+        cookies,’ meaning that they survive after your browser is closed. They can be used by the
+        site to recognise our computer or mobile device when you open your browser and browse the
+        Internet again.
+
+        \n\nWhat cookies do we use?
+
+        \n\nOur Site uses the following types of cookies:
+
+        \n\nType of cookie Purpose
+        \nCookies necessary for essential purposes These cookies are essential to provide you with
+        services available through our site and to use some of its features, such as access to
+        secure areas. Without these cookies, services you have asked for, like transactional
+        pages and secure login accounts, would not be possible.
+        \nAnalytics Cookies These cookies are used to collect information about how visitors use our
+        site.
+        \nThe information gathered does not identify any individual visitor and is aggregated. It
+        includes the number of visitors to our site, the sites that referred them to our site and
+        the pages that they visited on our site.
+        \nWe use this information to help operate our site more efficiently, to gather broad
+        demographic information and to monitor the level of activity on our site.
+        \nPerformance Cookies These cookies collect information about how visitors use the site, so
+        that we can analyse traffic and understand how our visitors use our sites. We use Google
+        Analytics for this purpose. Google Analytics uses its own cookies. These cookies don’t
+        collect information that identify a visitor. All information these cookies collect is
+        aggregated and therefore anonymous. It is only used to improve how the site works. You can
+        find out more information about Google Analytics cookies here:
+        https://developers.google.com/analytics/resources/concepts/gaConceptsCookies
+        \nYou can avoid the use of Google Analytics relating to your use of our site by downloading
+        and installing the browser plugin available via this link:
+        http://tools.google.com/dlpage/gaoptout?hl=en-GB
+        \nFunctionality Cookies These cookies allow our site to remember choices you make (such as
+        your user name, or the region you are in) and provide enhanced, more personal features.
+        These cookies can also be used to remember changes you have made to text size, fonts and
+        other parts of web pages that you can customize. They may also be used to provide services
+        you have asked for such as watching a video or commenting on a blog. The information these
+        cookies collect may be anonymised and they cannot track your browsing activity on other
+        websites.
+        \nSocial Media Cookies These cookies are used when you share information using a social media
+        sharing button or “like” button on our sites or you link your account or engage with our
+        content on or through a social networking site such as Facebook, Twitter or Google+. The
+        social network will record that you have done this. This information may be linked to
+        targeting/advertising activities.
+
+        \n\nFurther detailed information about the specific cookies used on this site and the third
+        parties who serve them can be found in our cookie consent tool [hyperlink to cookie consent
+        tool]. You can use this cookie tool to control your cookie preferences.
+
+        \n\nHow to control or delete cookies
+
+        \n\nYou have the right to choose whether or not to accept cookies and we have explained how
+        you can exercise this right below. However, please note that if you choose to refuse
+        cookies you may not be able to use the full functionality of our site.
+
+        \n\nYou can set your cookie preferences by using our cookie consent tool [hyperlink to
+        cookie consent tool] or by changing your browser settings so that cookies from this site
+        cannot be placed on your computer or mobile device. In order to do this, follow the
+        instructions provided by your browser (usually located within the “help” “tools” or “Edit”
+        facility).
+
+        \n\nFurther information about cookies, including how to see what cookies have been set on
+        your computer or mobile device and how to manage and delete them, visit
+        www.allaboutcookies.org and www.youronlinechoices.eu.
+
+        \n\nIP Addresses
+
+        \n\nWe may collect information about your computer or mobile device, including where
+        available your IP address, operating system, log in times and browser type. We use this
+        information to better understand how visitors use our site and for internal reporting
+        purposes. We may anonymise and share this information with advertisers, sponsors and/or
+        other businesses.
+
+        \n\nUSE OF PERSONAL DATA
+
+        \n\nWe use your personal data for the following purposes:
+        \n-to operate, maintain, and improve our sites, products and services;
+        \n-to process and deliver the contest entries and rewards;
+        \n-to respond to comments and questions and provide customer service;
+        \n-to send information including confirmations, invoices, technical notices, updates,
+        security alerts and support and administrative messages;
+        \n-to communicate about promotions, upcoming events, and other news about products and
+        services offered by us and our selected partners;
+        \n-to link or combine user information with other personal data;
+        \n-to protect, investigate, and deter against fraudulent, unauthorized, or illegal
+        activity; and
+        \n-to provide and deliver products and services at customers request.
+
+        \n\nSHARING OF PERSONAL DATA
+
+        \n\nWe do not rent, sell or share personal information about you with other people or
+        non-affiliated companies outside Five Rings Media Ltd except under the following
+        circumstances:
+        \n- With your consent. For example, you may let us share personal data with others for
+        their own marketing uses. Those uses will be subject to their privacy policies.
+        \n- When we do a business deal, or negotiate a business deal, involving the sale or
+        transfer of all or substantially all of our business or assets. These deals can include any
+        merger, financing, acquisition, or bankruptcy transaction or proceeding.
+        \n- For legal, protection, and safety purposes;
+        \n\t- to comply with laws or any regulatory obligation;
+        \n\t- to respond to lawful requests and legal processes;
+        \n\t- to protect the rights and property of Five Rings Media Ltd, our agents, customers and
+        others. This includes enforcing our agreements, policies and Terms of Use.
+        \n\t- in an emergency. This includes protecting the safety of our employees and agents, our
+        customers, or any person.
+        \n- With those who need it to do work for us.
+
+        \n\nWe may also share aggregated and/ or anonymised data with others for their own uses.
+
+        \n\nINTERNATIONAL TRANSFER OF PERSONAL DATA
+
+        \n\nYour personal data may be collected, processed and/or otherwise transferred outside the
+        European Economic Area and may be processed not only in the country in which it was
+        collected but also in other countries, including the United States, where data protection
+        and privacy laws and regulations may not offer the same level of protection as in other
+        parts of the world. By providing your personal data to us, you consent to such transfer,
+        collection and/or processing in the United States of your personal data, which includes the
+        use of cookies as described in this Policy, which includes the use of cookies as described
+        in this Policy.
+
+        \n\nPROTECTING YOUR INFORMATION
+
+        \n\nWe want you to feel confident about using our site, and we are committed to protecting
+        the personal information we collect. We limit access to personal information about you to
+        employees who reasonably need access to it, to provide products or services to you or in
+        order to do their jobs. We have appropriate technical and organisational physical,
+        electronic, and procedural safeguards to protect the personal information that you provide
+        to us against unauthorised or unlawful processing and against accidental loss, damage or
+        destruction.
+
+        \n\nHOW TO EDIT, DELETE OR ACCESS YOUR PERSONAL DATA
+
+        \n\nYou have the right to ask for a copy of any personal information that we hold about you
+        in our records, to correct any inaccuracies and to update any out of date information. You
+        can also ask us not to send you direct marketing communications (however please note that
+        we may continue to send you service related (i.e. non-marketing) communications, such as
+        email updates). If you wish to exercise any of these rights, or wish to object to our use
+        of your personal information, please write to us at the address given above.
+
+        \n\nCHILDREN
+
+        \n\nThis site is not directed at anyone who we know to be under the age of 13, nor do we
+        collect any personal information from anyone who we know to be under the age of 13. If you
+        are under the age of 13, you should not use the platform and should not submit any personal
+        information to us.
+
+        \n\nCHANGES TO THIS POLICY
+
+        \n\nFrom time to time we may change this Policy. If we make any changes, we will change the
+        Last Updated date above. If you do not agree to these changes, please do not continue to
+        use our site. If material changes are made to this Policy, we will notify you by email or
+        by placing a prominent notice on the site.
+    </string>
+
+    <!-- Lint thinks that (c) should be a copyright symbol. Suppressing the warning. -->
+    <!--suppress AndroidLintTypographyOther -->
+    <string name="terms_of_use_body">
+        LAST REVISED ON: OCTOBER 3RD 2015
+
+        \n\nThe website located at volleyverse.com (the “Site”) is a copyrighted work belonging to
+        Five Rings Media Ltd (“Company”, “us”, “our”, and “we”). Certain features of the Site may
+        be subject to additional guidelines, terms, or rules, which will be posted on the Site in
+        connection with such features. Without limitation to the preceding sentence, your
+        submission of information, including personal information, through or in connection with
+        the Site is governed by the terms of our privacy policy as updated from time to time,
+        available at Privacy Policy (“Privacy Policy”).
+
+        \n\nAll such additional terms, guidelines, and rules, including our Privacy Policy, are
+        incorporated by reference into these terms of use (these “Terms”).
+
+        \n\nThese Terms set forth the legally binding terms and conditions that govern your use of
+        the Site. By accessing or using the Site, you are accepting these Terms (on behalf of
+        yourself or the entity that you represent), and you represent and warrant that you have
+        the right, authority, and capacity to enter into these Terms (on behalf of yourself or the
+        entity that you represent). If you do not agree with all of the provisions of these Terms,
+        do not access and/or use the Site.
+
+        \n\n1. ACCOUNTS
+        \n1.1 Account Creation. In order to use certain features of the Site, you must register for
+        an account (“Account”) and provide certain information about yourself as prompted by the
+        account registration form. You represent and warrant that: (a) all required registration
+        information you submit is truthful and accurate; (b) you will maintain the accuracy of such
+        information. You may delete your Account at any time, for any reason, by following the
+        instructions on the Site. Company may suspend or terminate your Account in accordance with
+        Section 8.
+
+        \n\n1.2 Account Responsibilities. You are responsible for maintaining the confidentiality of
+        your Account login information and are fully responsible for all activities that occur
+        under your Account. You agree to immediately notify Company of any unauthorized use, or
+        suspected unauthorized use of your Account or any other breach of security. Company cannot
+        and will not be liable for any loss or damage arising from your failure to comply with the
+        above requirements.
+
+        \n\n2. ACCESS TO THE SITE
+        \n2.1 Licence. Subject to these Terms, Company grants you a non-transferable, non-exclusive,
+        revocable, limited licence to use and access the Site solely for your own personal,
+        non-commercial use.
+
+        \n\n2.2 Certain Restrictions. The rights granted to you in these Terms are subject to the
+        following restrictions: (a) you shall not license, sell, rent, lease, transfer, assign,
+        distribute, host, or otherwise commercially exploit the Site, whether in whole or in part,
+        or any content displayed on the Site; (b) you shall not modify, make derivative works of,
+        disassemble, reverse compile or reverse engineer any part of the Site; (c) you shall not
+        access the Site in order to build a similar or competitive website, product, or service;
+        and (d) except as expressly stated herein, no part of the Site may be copied, reproduced,
+        distributed, republished, downloaded, displayed, posted or transmitted in any form or by
+        any means. Unless otherwise indicated, any future release, update, or other addition to
+        functionality or content of the Site shall be subject to these Terms. All copyright and
+        other proprietary notices on the Site (or on any content displayed on the Site) must be
+        retained on all copies thereof.
+
+        \n\n2.3 Modification. Company reserves the right, at any time, to modify, suspend, or
+        discontinue the Site (in whole or in part) with or without notice to you. You agree that
+        Company will not be liable to you or to any third party for any modification, suspension,
+        or discontinuation of the Site or any part thereof.
+
+        \n\n2.4 No Support or Maintenance. You acknowledge and agree that Company will have no
+        obligation to provide you with any support or maintenance in connection with the Site.
+
+        \n\n2.5 Ownership. Excluding any User Content that you may provide (defined below), you
+        acknowledge that all the intellectual property rights, including copyrights, patents,
+        trade marks, and trade secrets, in the Site and its content are owned by Company or
+        Company’s suppliers. Neither these Terms (nor your access to the Site) transfers to you or
+        any third party any rights, title or interest in or to such intellectual property rights,
+        except for the limited access rights expressly set forth in Section 2.1. Company and its
+        suppliers reserve all rights not granted in these Terms. There are no implied licences
+        granted under these Terms.
+
+        \n\n3. USER CONTENT
+        \n3.1 User Content. “User Content” means any and all information and content that a user
+        submits to, or uses with, the Site (e.g., content in the user’s profile or postings). You
+        are solely responsible for your User Content. You assume all risks associated with use of
+        your User Content, including any reliance on its accuracy, completeness or usefulness by
+        others, or any disclosure of your User Content that personally identifies you or any third
+        party. You hereby represent and warrant that your User Content does not violate our
+        Acceptable Use Policy (defined in Section 3.3). You may not represent or imply to others
+        that your User Content is in any way provided, sponsored or endorsed by Company. Because
+        you alone are responsible for your User Content, you may expose yourself to liability if,
+        for example, your User Content violates the Acceptable Use Policy. Company is not obligated
+        to backup any User Content, and your User Content may be deleted from the Site at any time
+        without prior notice. You are solely responsible for creating and maintaining your own
+        backup copies of your User Content if you desire.
+
+        \n\n3.2 Licence. You hereby grant (and you represent and warrant that you have the right to
+        grant) to Company an irrevocable, nonexclusive, royalty-free and fully paid, worldwide
+        licence to reproduce, distribute, publicly display and perform, prepare derivative works
+        of, incorporate into other works, and otherwise use and exploit your User Content, and to
+        grant sublicences of the foregoing rights, solely for the purposes of including your User
+        Content in the Site. You hereby irrevocably waive (and agree to cause to be waived) any
+        claims and assertions of moral rights or attribution with respect to your User Content.
+
+        \n\n3.3 Acceptable Use Policy. The following terms constitute our “Acceptable Use Policy”:
+
+        \n\n(a) You agree not to use the Site to collect, upload, transmit, display, or distribute any
+        User Content (i) that violates any third-party right, including any copyright, trademark,
+        patent, trade secret, moral right, privacy right, right of publicity, or any other
+        intellectual property or proprietary right; (ii) that is unlawful, harassing, abusive,
+        tortious, threatening, harmful, invasive of another’s privacy, vulgar, defamatory, false,
+        intentionally misleading, trade libelous, pornographic, obscene, patently offensive,
+        promotes racism, bigotry, hatred, or physical harm of any kind against any group or
+        individual or is otherwise objectionable; (iii) that is harmful to minors in any way; or
+        (iv) that is in violation of any law, regulation, or obligations or restrictions imposed
+        by any third party.
+        \n(b) In addition, you agree not to: (i) upload, transmit, or distribute to or through the
+        Site any computer viruses, worms, or any software intended to damage or alter a computer
+        system or data; (ii) send through the Site unsolicited or unauthorized advertising,
+        promotional materials, junk mail, spam, chain letters, pyramid schemes, or any other form
+        of duplicative or unsolicited messages, whether commercial or otherwise; (iii) use the Site
+        to harvest, collect, gather or assemble information or data regarding other users,
+        including e-mail addresses, without their consent; (iv) interfere with, disrupt, or create
+        an undue burden on servers or networks connected to the Site, or violate the regulations,
+        policies or procedures of such networks; (v) attempt to gain unauthorized access to the
+        Site (or to other computer systems or networks connected to or used together with the
+        Site), whether through password mining or any other means; (vi) harass or interfere with
+        any other user’s use and enjoyment of the Site; or (vi) use software or automated agents or
+        scripts to produce multiple accounts on the Site, or to generate automated searches,
+        requests, or queries to (or to strip, scrape, or mine data from) the Site (provided,
+        however, that we conditionally grant to the operators of public search engines revocable
+        permission to use spiders to copy materials from the Site for the sole purpose of and
+        solely to the extent necessary for creating publicly available searchable indices of the
+        materials, but not caches or archives of such materials, subject to the parameters set
+        forth in our robots.txt file).
+
+        \n\n3.4 Enforcement. We reserve the right (but have no obligation) to review any User
+        Content, and to investigate and/or take appropriate action against you in our sole
+        discretion if you violate the Acceptable Use Policy or any other provision of these
+        Terms or otherwise create liability for us or any other person. Such action may include
+        removing or modifying your User Content, terminating your Account in accordance with
+        Section 8, and/or reporting you to law enforcement authorities.
+
+        \n\n3.5 Feedback. If you provide Company with any feedback or suggestions regarding the
+        Site (“Feedback”), you hereby assign to Company all rights in such Feedback and agree that
+        Company shall have the right to use and fully exploit such Feedback and related
+        information in any manner it deems appropriate. Company will treat any Feedback you provide
+        to Company as non-confidential and non-proprietary. You agree that you will not submit to
+        Company any information or ideas that you consider to be confidential or proprietary.
+
+        \n\n4. INDEMNIFICATION. You agree to indemnify Company (and its officers, employees, and
+        agents), including costs and attorneys’ fees, from any claim or demand made by any third
+        party due to or arising out of (a) your use of the Site, (b) your violation of these Terms,
+        (c) your violation of applicable laws or regulations or (d) your User Content. Company
+        reserves the right, at your expense, to assume the exclusive defence and control of any
+        matter for which you are required to indemnify us, and you agree to cooperate with our
+        defence of these claims. You agree not to settle any matter without the prior written
+        consent of Company. Company will use reasonable efforts to notify you of any such claim,
+        action or proceeding upon becoming aware of it.
+
+        \n\n5. THIRD-PARTY LINKS &amp; ADS; OTHER USERS
+        \n5.1 Third-Party Links &amp; Ads. The Site may contain links to third-party websites and
+        services, and/or display advertisements for third parties (collectively, “Third-Party Links
+        &amp; Ads”). Such Third-Party Links &amp; Ads are not under the control of Company, and
+        Company is not responsible for any Third-Party Links &amp; Ads. Company provides access to
+        these Third-Party Links &amp; Ads only as a convenience to you, and does not review,
+        approve, monitor, endorse, warrant, or make any representations with respect to Third-Party
+        Links &amp; Ads. You use all Third-Party Links &amp; Ads at your own risk, and should apply
+        a suitable level of caution and discretion in doing so. When you click on any of the
+        Third-Party Links &amp; Ads, the applicable third party’s terms and policies apply,
+        including the third party’s privacy and data gathering practices. You should make whatever
+        investigation you feel necessary or appropriate before proceeding with any transaction in
+        connection with such Third-Party Links &amp; Ads.
+
+        \n\n5.2 Other Users. Each Site user is solely responsible for any and all of its own User
+        Content. Because we do not control User Content, you acknowledge and agree that we are not
+        responsible for any User Content, whether provided by you or by others. We make no
+        guarantees regarding the accuracy, currency, suitability, or quality of any User Content.
+        Your interactions with other Site users are solely between you and such users. You agree
+        that Company will not be responsible for any loss or damage incurred as the result of any
+        such interactions. If there is a dispute between you and any Site user, we are under no
+        obligation to become involved.
+
+        \n\n5.3 Release. Subject to applicable law, you hereby release and forever discharge the
+        Company (and our officers, employees, agents, successors, and assigns) from, and hereby
+        waive and relinquish, each and every past, present and future dispute, claim, controversy,
+        demand, right, obligation, liability, action and cause of action of every kind and nature,
+        that has arisen or arises directly or indirectly out of, or that relates directly or
+        indirectly to, the Site (including any interactions with, or act or omission of, other
+        Site users or any Third-Party Links &amp; Ads).
+
+        \n\n6. DISCLAIMERS
+        \nThe Site is provided on an “as-is” and “as available” basis, and, to the extent permitted
+        by applicable law, Company (and our suppliers) expressly disclaim any and all warranties
+        and conditions of any kind, whether express, implied, or statutory, including all
+        warranties or conditions of merchantability, fitness for a particular purpose, title, quiet
+        enjoyment, accuracy, or non-infringement. We (and our suppliers) make no warranty that the
+        Site will meet your requirements, will be available on an uninterrupted, timely, secure, or
+        error-free basis, or will be accurate, reliable, free of viruses or other harmful code,
+        complete, legal, or safe.
+
+        \n\n7. LIMITATION ON LIABILITY
+        \nTo the maximum extent permitted by law, and subject to the final paragraph in this
+        Section 7, in no event shall Company (or our suppliers) be liable to you or any third party
+        for any lost profits, lost data, costs of procurement of substitute products, or any
+        indirect, consequential, exemplary, incidental, special or punitive damages arising from or
+        relating to these Terms or your use of, or inability to use, the Site, even if Company has
+        been advised of the possibility of such damages. Access to, and use of, the Site is at your
+        own discretion and risk, and you will be solely responsible for any damage to your device
+        or computer system, or loss of data resulting therefrom.
+
+        \n\nTo the maximum extent permitted by law, and subject to the final paragraph in this
+        Section 7, our liability to you for any damages arising from or related to these Terms
+        (for any cause whatsoever and regardless of the form of the action), will at all times be
+        limited to a maximum of fifty pounds sterling (GBP 50). The existence of more than one
+        claim will not enlarge this limit. You agree that our suppliers will have no liability of
+        any kind arising from or relating to these Terms.
+
+        \n\nThe exclusions in this Section 7 shall apply to the maximum extent permitted by law, but
+        Company does not exclude liability for death or personal injury caused by its negligence,
+        fraud or fraudulent misrepresentation, or any other liability which may not be excluded by
+        law.
+
+        \n\n8. TERM AND TERMINATION. Subject to this Section, these Terms will remain in full force
+        and effect while you use the Site. We may suspend or terminate your rights to use the Site
+        (including your Account) at any time for any reason at our sole discretion, including for
+        any use of the Site in violation of these Terms. Upon termination of your rights under
+        these Terms, your Account and right to access and use the Site will terminate immediately.
+        You understand that any termination of your Account may involve deletion of your User
+        Content associated with your Account from our live databases. Company will not have any
+        liability whatsoever to you for any termination of your rights under these Terms, including
+        for termination of your Account or deletion of your User Content. Even after your rights
+        under these Terms are terminated, the following provisions of these Terms will remain in
+        effect: Sections 2.2 to 2.5, and Sections 3 to 9.
+
+        \n\n9. GENERAL
+        \n9.1 Changes. These Terms are subject to occasional revision, and if we make any substantial
+        changes, we may notify you by sending you an e-mail to the last e-mail address you provided
+        to us (if any), and/or by prominently posting notice of the changes on our Site. You are
+        responsible for providing us with your most current e-mail address. In the event that the
+        last e-mail address that you have provided us is not valid, or for any reason is not
+        capable of delivering to you the notice described above, our dispatch of the e-mail
+        containing such notice will nonetheless constitute effective notice of the changes
+        described in the notice. Any changes to these Terms will be effective upon the earlier of
+        thirty (30) calendar days following our dispatch of an e-mail notice to you (if applicable)
+        or thirty (30) calendar days following our posting of notice of the changes on our Site.
+        These changes will be effective immediately for new users of our Site. Continued use of our
+        Site following notice of such changes shall indicate your acknowledgement of such changes
+        and agreement to be bound by the terms and conditions of such changes.
+
+        \n\n9.2 Electronic Communications. The communications between you and Company use electronic
+        means, whether you use the Site or send us emails, or whether Company posts notices on the
+        Site or communicates with you via email. For contractual purposes, you (a) consent to
+        receive communications from Company in an electronic form; and (b) agree that all terms
+        and conditions, agreements, notices, disclosures, and other communications that Company
+        provides to you electronically satisfy any legal requirement that such communications
+        would satisfy if it were be in a hardcopy writing.
+
+        \n\n9.3 Entire Terms. These Terms constitute the entire agreement between you and us
+        regarding the use of the Site.
+
+        \n\n9.4 Waiver. A waiver by Company of any right or remedy under these Terms shall only be
+        effective if it is in writing, executed by a duly authorized representative of Company and
+        shall apply only to the circumstances for which it is given. Our failure to exercise or
+        enforce any right or remedy under these Terms shall not operate as a waiver of such right
+        or remedy, nor shall it prevent any future exercise or enforcement of such right or remedy.
+        No single or partial exercise of any right or remedy shall preclude or restrict the further
+        exercise of any such right or remedy or other rights or remedies.
+
+        \n\n9.5 Headings and Interpretation. The section titles in these Terms are for convenience
+        only and have no legal or contractual effect. The word “including” means “including without
+        limitation”.
+
+        \n\n9.6 Severability. If any provision of these Terms is, for any reason, held to be invalid
+        or unenforceable, the other provisions of these Terms will be unimpaired and the invalid or
+        unenforceable provision will be deemed modified so that it is valid and enforceable to the
+        maximum extent permitted by law.
+
+        \n\n9.7 Relationship between you and us. You confirm that you are acting on your own behalf
+        and not for the benefit of any other person. Your relationship to Company is that of an
+        independent contractor, and neither party is an agent or partner of the other.
+
+        \n\n9.8 Assignment. These Terms, and your rights and obligations herein, may not be
+        assigned, subcontracted, delegated, or otherwise transferred by you without Company’s prior
+        written consent, and any attempted assignment, subcontract, delegation, or transfer in
+        violation of the foregoing will be null and void. Company may freely assign these Terms.
+        The terms and conditions set forth in these Terms shall be binding upon assignees.
+
+        \n\n9.9 Governing Law and Jurisdiction. These Terms and any dispute or claim arising out of
+        or in connection with their subject matter or formation (including non-contractual disputes
+        or claims) shall be governed by and construed in accordance with the law of England and
+        Wales. You agree that the courts of England and Wales shall have exclusive jurisdiction to
+        settle any dispute or claim arising out of or in connection with the subject matter or
+        formation (including non-contractual disputes or claims) of these Terms.
+
+        \n\n9.10 Copyright/Trademark Information. Copyright &#169; 2015 Five Rings Media Ltd.. All rights
+        reserved. All trademarks, logos and service marks (“Marks”) displayed on the Site are our
+        property or the property of other third parties. You are not permitted to use these Marks
+        without our prior written consent or the consent of such third party, which may own the
+        Marks.
+
+        \n\n9.11 Contact Information. If you wish to contact us in writing, or if these Terms
+        require you to give notice to us in writing, please contact us at:
+        \nDaniel Grey
+        \nAddress:
+        \n15 Balham New Road
+        \nLondon
+        \nSW12 9PH
+        \nTelephone: +44 (749) 439-0882
+        \nEmail: dan.grey@volleyverse.com
+    </string>
+</resources>

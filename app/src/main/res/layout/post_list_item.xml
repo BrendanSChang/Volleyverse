@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/post_list_item"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/card_margin"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <!--
+        The drawable placeholder does not seem to show up when set in the code,
+        so it is set here instead.
+        -->
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/post_list_item_image"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/post_list_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
+            android:paddingTop="@dimen/card_padding"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_size" />
+
+        <TextView
+            android:id="@+id/post_list_item_excerpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
+            android:paddingTop="@dimen/card_padding"
+            android:paddingBottom="@dimen/card_padding"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/excerpt_size" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
