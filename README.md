@@ -14,6 +14,10 @@ The application is currently able to load and refresh posts.
 
 ### Screenshots
 
+App icon
+
+![App icon](screenshots/icon.png)
+
 Splash screen
 
 ![Splash screen](screenshots/splash.png)
