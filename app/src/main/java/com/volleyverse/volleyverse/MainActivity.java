@@ -94,11 +94,11 @@ public class MainActivity extends AppCompatActivity {
       navigation.setOnItemClickListener(new ListView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        drawer.closeDrawer(GravityCompat.START);
-        Intent intent = new Intent(MainActivity.this, ContentActivity.class);
-        intent.putExtra(ContentActivity.KEY_TYPE, MENU_ITEMS[page]);
-        intent.putExtra(ContentActivity.KEY_URL, getString(MENU_ITEMS_URL[page]));
-        startActivity(intent);
+          drawer.closeDrawer(GravityCompat.START);
+          Intent intent = new Intent(MainActivity.this, ContentActivity.class);
+          intent.putExtra(ContentActivity.KEY_TYPE, MENU_ITEMS[position]);
+          intent.putExtra(ContentActivity.KEY_URL, getString(MENU_ITEMS_URL[position]));
+          startActivity(intent);
         }
       });
     }
