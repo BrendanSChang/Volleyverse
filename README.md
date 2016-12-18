@@ -46,4 +46,4 @@ Navigation drawer
 - Get rid of the gray bar in WebView for posts
 - Add push functionality and a settings activity to allow the user to control push subscriptions
 - Tweak color schemes/look and feel
-- Test on different platforms/versions
+- Test on different platforms/versions (build test suite)
