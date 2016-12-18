@@ -41,9 +41,8 @@ Navigation drawer
 ## Next Steps
 
 - Add a feedback activity
-- Show a clean WebView to the user immediately (get rid of the lag from removing tags manually via javascript)
 - Implement offline loading using WebView caching mechanisms
+- Get rid of the gray bar in WebView for posts
 - Add push functionality and a settings activity to allow the user to control push subscriptions
 - Tweak color schemes/look and feel
-- Try using Fragments
 - Test on different platforms/versions

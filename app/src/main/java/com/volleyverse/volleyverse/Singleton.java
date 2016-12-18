@@ -8,6 +8,9 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
+import java.util.HashMap;
+import java.util.Set;
+
 /**
  * This class is essentially identical to the suggested implementation found in
  * the Android development guides:
@@ -17,11 +20,12 @@ import com.android.volley.toolbox.Volley;
 @SuppressLint("StaticFieldLeak")
 class Singleton {
 
-  private static final String TAG = "VOLLEYVERSE";
+  private static final String DEFAULT_TAG = "VOLLEYVERSE";
 
   private static Singleton instance;
   private RequestQueue requestQueue;
   private ImageLoader imageLoader;
+  private HashMap<String, Integer> tagCounter;
   private static Context context;
 
   private Singleton(Context ctx) {
@@ -29,6 +33,7 @@ class Singleton {
     this.requestQueue = getRequestQueue();
     this.imageLoader =
         new ImageLoader(this.requestQueue, new LruImageCache(LruImageCache.getCacheSize(context)));
+    this.tagCounter = new HashMap<>();
   }
 
   static synchronized Singleton getInstance(Context context) {
@@ -48,7 +53,15 @@ class Singleton {
   }
 
   <T> void addToRequestQueue(Request<T> req) {
-    req.setTag(TAG);
+    addToRequestQueue(req, DEFAULT_TAG);
+  }
+
+  <T> void addToRequestQueue(Request<T> req, String tag) {
+    if (!this.tagCounter.containsKey(tag)) {
+      this.tagCounter.put(tag, 0);
+    }
+    this.tagCounter.put(tag, this.tagCounter.get(tag) + 1);
+    req.setTag(tag);
     this.getRequestQueue().add(req);
   }
 
@@ -57,8 +70,22 @@ class Singleton {
   }
 
   void cancelRequests() {
+    Set<String> keys = this.tagCounter.keySet();
     if (this.requestQueue != null) {
-      this.getRequestQueue().cancelAll(TAG);
+      for (String key : keys) {
+        this.getRequestQueue().cancelAll(key);
+      }
     }
+
+    for (String key : keys) {
+      this.tagCounter.put(key, 0);
+    }
+  }
+
+  void cancelRequestsByTag(String tag) {
+    if (this.requestQueue != null) {
+      this.getRequestQueue().cancelAll(tag);
+    }
+    this.tagCounter.put(tag, 0);
   }
 }

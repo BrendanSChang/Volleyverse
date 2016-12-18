@@ -14,10 +14,10 @@ class PostListItemViewHolder
   private NetworkImageView image;
   private TextView title;
   private TextView excerpt;
-  private AdapterViewExecutor executor;
+  private AdapterOnClickExecutor executor;
   private int position;
 
-  PostListItemViewHolder(View view, AdapterViewExecutor executor) {
+  PostListItemViewHolder(View view, AdapterOnClickExecutor executor) {
     super(view);
     view.setOnClickListener(this);
     this.image = (NetworkImageView) view.findViewById(R.id.post_list_item_image);
@@ -46,7 +46,7 @@ class PostListItemViewHolder
   @Override
   public void onClick(View v) {
     if (this.position != POSITION_NOT_SET) {
-      executor.executeView(this.position);
+      this.executor.onClick(this.position);
     }
   }
 }

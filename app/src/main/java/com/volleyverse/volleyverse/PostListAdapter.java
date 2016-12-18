@@ -8,20 +8,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.List;
 
-class PostListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements AdapterViewExecutor {
+class PostListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements AdapterOnClickExecutor {
 
   private static final int ITEM_CARD = 0;
   private static final int ITEM_PROGRESS = 1;
 
   private final Context context;
   private List<PostListItem> items;
+  private ArticleSelectionListener listener;
 
-  PostListAdapter(Activity context, ArrayList<PostListItem> items) {
-    this.context = context;
+  PostListAdapter(Activity activity, List<PostListItem> items) {
+    this.context = activity;
     this.items = items;
+    try {
+      this.listener = (ArticleSelectionListener) activity;
+    } catch (ClassCastException e) {
+      throw new ClassCastException(
+          activity.toString() + " must implement OnHeadlineSelectedListener");
+    }
   }
 
   @Override
@@ -69,11 +75,8 @@ class PostListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> impl
   }
 
   @Override
-  public void executeView(int position) {
+  public void onClick(int position) {
     PostListItem item = this.items.get(position);
-    Intent intent = new Intent(this.context, ContentActivity.class);
-    intent.putExtra(ContentActivity.KEY_TYPE, ContentActivity.TYPE_POST);
-    intent.putExtra(ContentActivity.KEY_URL, item.getUrl());
-    this.context.startActivity(intent);
+    this.listener.onArticleSelected(item);
   }
 }
