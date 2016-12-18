@@ -41,6 +41,7 @@ Navigation drawer
 ## Next Steps
 
 - Add a feedback activity
+- Handle configuration changes
 - Implement offline loading using WebView caching mechanisms
 - Get rid of the gray bar in WebView for posts
 - Add push functionality and a settings activity to allow the user to control push subscriptions
